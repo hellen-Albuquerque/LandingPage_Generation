@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@500&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+ }
+ 
+ h1, h2, h4, a, label {
+    font-family: 'Manrope', sans-serif;
+ }
+
+ nav {
+     width: 100%;
+     background-color: #d45f68;
+     position: fixed;
+     top: 0%;
+     z-index: 100;
+
+ }
+
+ nav ul{
+    text-align: center;
+    display: flex;
+    justify-content: flex-end;
+    padding: 0px;
+ }
+ 
+ nav a{
+    padding: 20px 20px;
+    text-decoration: none;
+    color: white;
+    font-size: 13pt;
+ }
+
+ nav a :hover {
+    color: rgba(246, 233, 233, 0);
+ }
+ 
+ #logoGenBranco {
+    width: 70px;
+    height: 30px;
+    margin-right: 500px;
+ }
+ 
+ #sobreGen {
+    margin-right: 90px;
+    margin-left: 90px;
+ }
+ 
+ #sobre{
+     
+ }
+ 
+ #containerSobreGen{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+ }
+
+ .text-center{
+    text-align: center;
+ }
+ 
+ #texto-sobreGen{
+    margin-right: 10px;
+ }
+ 
+ #video-sobreGen{
+    margin-left: 10px;
+ }
+ 
+ #img-react{
+    width: 400px;
+    height: 300px;
+ }
+ 
+ #containerSobreCurso{ 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+ }
+ 
+ #container-curriculo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+ 
+ }
+ 
+ #container-curriculo div{
+    border-style: dashed;
+    border-color: #db6247;
+    padding: 15px;
+ }
+ 
+ #container-curriculo ul{
+    list-style: none;
+    padding: 0;
+ }
+ 
+ .tm-icone{
+    width: 50px;
+    height: 50px;
+ }
+  
+ hr{
+    margin-right: 50px;
+    margin-left: 50px;
+ }
+ .p-30{
+    padding: 30px;
+ }
+ 
+ #container-footer{
+    display: flex;
+    justify-content: center;
+ }
